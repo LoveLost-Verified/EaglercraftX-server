@@ -48,7 +48,7 @@ commands:
   log: true
   spam-exclusions:
   - /skill
-  silent-commandblock-console: false
+  silent-commandblock-console: true
   replace-commands:
   - setblock
   - summon
@@ -90,12 +90,12 @@ world-settings:
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
-      cane-modifier: 100
+      cane-modifier: 150
       melon-modifier: 100
       mushroom-modifier: 100
       pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
+      sapling-modifier: 200
+      wheat-modifier: 200
       netherwart-modifier: 100
     mob-spawn-range: 4
     entity-activation-range:
@@ -121,15 +121,15 @@ world-settings:
     seed-feature: 14357617
     hunger:
       walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
+      sprint-exhaustion: 0.5
       combat-exhaustion: 0.3
-      regen-exhaustion: 3.0
+      regen-exhaustion: 2.0
     max-tnt-per-tick: 100
     max-tick-time:
       tile: 50
       entity: 50
     hanging-tick-frequency: 100
-    enable-zombie-pigmen-portal-spawns: true
+    enable-zombie-pigmen-portal-spawns: false
     view-distance: 4
     wither-spawn-sound-radius: 0
     item-despawn-rate: 6000
@@ -137,6 +137,6 @@ world-settings:
       item: 2.5
       exp: 3.0
     arrow-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
+    zombie-aggressive-towards-villager: false
     chunks-per-tick: 650
     clear-tick-list: false
